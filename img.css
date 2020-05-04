@@ -1,0 +1,87 @@
+
+/* #para{
+  width: 800px;
+  margin-top: 0px;
+  border: solid 1px;
+  float: left;
+  color: aliceblue;
+  background-color: black;
+} */
+#container{
+  padding:1px;
+  border: solid 1px; 
+  background-color: grey;
+}
+/* #header{
+  text-align: left;
+  padding: 0px;
+  border: solid 1px;
+  font-size: 17px;
+}  */
+#header h1{
+  
+  width: 270px;
+  margin-top: 5px;
+  border: solid 1px;
+  float: left;
+  color: aliceblue;
+}
+#header h5{
+  color: aliceblue;
+   border: solid 1px;
+   margin-top:12px;
+   margin-right: 840px;
+  /* image move laft right */
+  /* width: 990px;  */
+  float: right;
+  border-radius: 4px;
+  /* padding: 5px; */
+}
+#main{
+  border: solid 1px;
+  margin-top: 65px;
+  background-color: grey;
+}
+#main ul{
+  list-style-type:none ;
+  padding: 0px;
+  font-size:18px;
+   display: flex; /*convert verticle into horizonatal */
+}
+/* for contact menu bar */
+/* li:nth-last-child(3n+2){
+  margin-left:auto;
+  margin-left: 895px;
+} */
+li:last-child {
+  margin-left:auto;
+}
+a{
+  text-decoration: none;
+  color:white;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+ 
+}
+
+#image{
+  margin-left:initial;
+  padding: 0px;
+  position: relative;
+}
+.top-right {
+  padding: 20px;
+  border: solid 1px;
+  position: absolute;
+  width: 450px;
+  top: 130px;
+  right: 0px;
+}
+.centered {
+  position: absolute;
+  color: aliceblue;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

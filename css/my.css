@@ -1,0 +1,17 @@
+body,html {
+  height: 100%;
+  background: honeydew;
+}
+html, body, header {
+  margin:0;
+  padding:0;
+}
+#head h3{
+
+  background-color: #2e2b27;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}

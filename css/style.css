@@ -1,0 +1,108 @@
+#container{
+  padding:4px;
+  border: solid 1px; 
+}
+/* #header{
+  text-align: left;
+  padding: 0px;
+  border: solid 1px;
+  font-size: 17px;
+}  */
+#header h1{
+  width: 270px;
+  margin-top: 5px;
+   border: solid 1px; 
+  float: left;
+}
+#header h5{
+   border: solid 1px;
+   margin-top:12px;
+   margin-right: 500px;
+  /* image move laft right */
+  /* width: 990px;  */
+  float: right;
+  border-radius: 4px;
+  /* padding: 5px; */
+}
+
+#main{
+  border: solid 1px;
+  margin-top: 65px;
+}
+#main ul{
+  list-style-type:none ;
+  padding: 0px;
+  font-size:18px;
+   display: flex; /*convert verticle into horizonatal */
+}
+/* for contact menu bar */
+/* li:nth-last-child(3n+2){
+  margin-left:auto;
+  margin-left: 895px;
+} */
+li:last-child {
+  margin-left:auto;
+}
+a{
+  text-decoration: none;
+  color: red;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+ 
+}
+#para{
+  width: 800px;
+  margin-top: 5px;
+  border: solid 1px;
+  float: left;
+}
+#image{
+  border: solid 1px;
+  margin-top:15px;
+  /* image move left right */
+  width: 430px; 
+  float: right;
+  border-radius: 4px;
+  padding: 5px;
+  background-repeat: no-repeat;
+  /* It visible text over Image cool top right. */
+  position: relative;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#footer{
+  margin-top: 550px;
+  border: solid 1px;
+  text-align: center;
+  clear:both;
+}
