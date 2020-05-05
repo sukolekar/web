@@ -1,14 +1,8 @@
-/* body,html {
-  height: 100%;
-  background: honeydew;
-} */
-html, body, header {
-  margin:0;
-  padding:0;
+
+body{
+ margin: 0;
 }
-#con{
-  
-}
+
 #head h3{
 
   background-color: #2e2b27;
@@ -48,15 +42,19 @@ a{
   padding: 25px;
   margin: 10px;
   font-size: 16px;
-  
- 
+}
+#bg-image{
+ background: no-repeat center center fixed;
+ background-size: cover;
 }
 #name{
   text-align: center;
 }
 #footer{
-  margin-top: 60px;
+  margin-top: 0px;
   border: solid 1px;
   text-align: center;
   clear:both;
+  padding: 10spx;
+  background-color: grey;
 }
